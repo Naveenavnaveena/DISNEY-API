@@ -1,0 +1,111 @@
+.App {
+  text-align: center;
+  background: #44b4ff;
+  padding: 20px;
+}
+
+.header {
+  background-color: #0c0c0c;
+  padding: 10px;
+}
+
+.header h1 {
+  color: white;
+}
+
+.options button {
+  margin: 10px;
+  padding: 10px;
+  background-color: #306af2;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.options button:hover {
+  background-color: #004cff;
+}
+
+.cartoons {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.character-card {
+  background: #fff;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+.character-card img {
+  width: 150px;
+  height: 150px;
+  border-radius: 8px;
+}
+
+.character-card h3 {
+  margin-top: 10px;
+  font-size: 1.2em;
+}
+
+.character-card:hover {
+  transform: scale(1.1);
+}
+
+.footer {
+  background-color: #070707;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.footer button {
+  margin: 10px;
+  padding: 10px;
+  background-color: #306af2;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.footer button:hover {
+  background-color: #004cff;
+}
+
+.infoModal {
+  position: fixed;
+  top: 20%;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  width: 80%;
+  max-width: 400px;
+}
+
+.infoModal img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.infoModal button {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #306af2;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.infoModal button:hover {
+  background-color: #004cff;
+}
